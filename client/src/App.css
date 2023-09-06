@@ -1,0 +1,16 @@
+@import '~antd/dist/reset.css';
+
+.h100 {
+  height: calc(100vh - 64px);
+}
+.header{
+  text-align: center;
+  color: #000000;
+  height: 64px;
+  padding-inline: 50px;
+  line-height: 64px;
+  background-color: #ffffff;
+}
+body {
+  background-color: #eeeeee;
+}
