@@ -6,27 +6,69 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e0ab61e-5a9c-48a7-84d4-03cdc70a22a7" name="Default Changelist" comment="ver 0.1" />
+    <list default="true" id="5e0ab61e-5a9c-48a7-84d4-03cdc70a22a7" name="Default Changelist" comment="ver 0.1">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/31010.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/cache/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/RegistrationForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/login/registration.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/login/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/order/orderId.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/profile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/profile/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/dto/create-orders.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/orders.gateway.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/orders.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/orders.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/orders.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/dto/create-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/user.gateway.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/user.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/OrdersService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/OrdersService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/UserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/UserService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AppRouter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AppRouter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/models/IOrder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/IOrder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/models/IUser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/IUser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/order/addorder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/order/addorder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/order/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/order/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/order/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/order/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/names.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/names.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/auth/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/auth/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/auth/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/auth/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/order/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/order/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/order/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/order/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/order/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/order/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/rules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/rules.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/category/category.gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/category/category.gateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +77,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="tsconfig.json" />
         <option value="TypeScript JSX File" />
-        <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -70,9 +113,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/pages/order" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -82,7 +130,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\react\freelance1\server\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -90,11 +138,12 @@
       <recent name="C:\react\freelance1\client\src\pages\order" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\react\freelance1\server\src\orders" />
       <recent name="C:\react\freelance1\client\src\pages\order" />
       <recent name="C:\react\freelance1\client\src\pages\login" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.start (1)">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -108,6 +157,43 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start (1)" />
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -124,7 +210,17 @@
       <workItem from="1693985493722" duration="955000" />
       <workItem from="1693986464181" duration="39000" />
       <workItem from="1693986505270" duration="47000" />
-      <workItem from="1693986555286" duration="25000" />
+      <workItem from="1693986555286" duration="10384000" />
+      <workItem from="1694163141213" duration="9367000" />
+      <workItem from="1694185798146" duration="2422000" />
+      <workItem from="1694188248233" duration="7336000" />
+      <workItem from="1694320459503" duration="30369000" />
+      <workItem from="1694408289053" duration="19658000" />
+      <workItem from="1694502635481" duration="14721000" />
+      <workItem from="1695299058197" duration="1555000" />
+      <workItem from="1695301322368" duration="48874000" />
+      <workItem from="1695499782572" duration="29094000" />
+      <workItem from="1695639575542" duration="8275000" />
     </task>
     <task id="LOCAL-00001" summary="ver 0.1">
       <created>1693984929811</created>
@@ -147,17 +243,18 @@
       <option name="project" value="LOCAL" />
       <updated>1693985519998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ver 0.1">
+      <created>1693986646453</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693986646453</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/client/src/index.js" />
-        <option value="$PROJECT_DIR$/client/src/App.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -172,6 +269,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -191,6 +313,11 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +326,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="ver 0.1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="67" key="#Deployment" timestamp="1695622113180">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="361" y="67" key="#Deployment/0.0.1536.816@0.0.1536.816" timestamp="1695622113180" />
     <state x="615" y="278" key="#ESLint" timestamp="1693850560194">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -207,45 +338,85 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="391" y="71" key="#Inspections/0.0.1536.816@0.0.1536.816" timestamp="1693850453931" />
+    <state x="345" y="54" key="#SSH_Configurations" timestamp="1695622112090">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="345" y="54" key="#SSH_Configurations/0.0.1536.816@0.0.1536.816" timestamp="1695622112090" />
+    <state x="349" y="123" key="DBNavigator.DatasetFilterDialog" timestamp="1695541215333">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="349" y="123" key="DBNavigator.DatasetFilterDialog/0.0.1536.816@0.0.1536.816" timestamp="1695541215333" />
+    <state x="459" y="163" key="DBNavigator.ObjectFactoryInputDialog" timestamp="1695391083541">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="459" y="163" key="DBNavigator.ObjectFactoryInputDialog/0.0.1536.816@0.0.1536.816" timestamp="1695391083541" />
+    <state x="379" y="298" key="DBNavigator.ObjectNameFilterConditionDialog" timestamp="1695301687209">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="379" y="298" key="DBNavigator.ObjectNameFilterConditionDialog/0.0.1536.816@0.0.1536.816" timestamp="1695301687209" />
+    <state x="118" y="21" key="DBNavigator.ProjectSettingsDialog" timestamp="1695301695180">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="118" y="21" key="DBNavigator.ProjectSettingsDialog/0.0.1536.816@0.0.1536.816" timestamp="1695301695180" />
     <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1693986461546">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1693986461546" />
-    <state width="1509" height="191" key="GridCell.Tab.0.bottom" timestamp="1693985488788">
+    <state x="438" y="187" key="EditFileWatcherDialog" timestamp="1695366057318">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1509" height="191" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1693985488788" />
-    <state width="1509" height="191" key="GridCell.Tab.0.center" timestamp="1693985488787">
+    <state x="438" y="187" key="EditFileWatcherDialog/0.0.1536.816@0.0.1536.816" timestamp="1695366057318" />
+    <state width="1493" height="78" key="GridCell.Tab.0.bottom" timestamp="1695639564548">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1509" height="191" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1693985488787" />
-    <state width="1509" height="191" key="GridCell.Tab.0.left" timestamp="1693985488786">
+    <state width="1493" height="78" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1695639564548" />
+    <state width="1493" height="78" key="GridCell.Tab.0.center" timestamp="1695639564548">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1509" height="191" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1693985488786" />
-    <state width="1509" height="191" key="GridCell.Tab.0.right" timestamp="1693985488787">
+    <state width="1493" height="78" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1695639564548" />
+    <state width="1493" height="78" key="GridCell.Tab.0.left" timestamp="1695639564547">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1509" height="191" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1693985488787" />
-    <state x="160" y="0" key="SettingsEditor" timestamp="1693986579351">
+    <state width="1493" height="78" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1695639564547" />
+    <state width="1493" height="78" key="GridCell.Tab.0.right" timestamp="1695639564548">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1693986579351" />
+    <state width="1493" height="78" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1695639564548" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1695301303624">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="160" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1695301303624" />
     <state x="587" y="33" key="VCS.ChangeListViewerDialog" timestamp="1693986272418">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="587" y="33" key="VCS.ChangeListViewerDialog/0.0.1536.816@0.0.1536.816" timestamp="1693986272418" />
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1693985905533">
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1693986665327">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1693985905533" />
-    <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1693901946363">
+    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1693986665327" />
+    <state x="630" y="307" key="WebDeployment.AddServerDialog.v.1" timestamp="1695622076835">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1693901946363" />
-    <state x="460" y="288" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1693985879603">
+    <state x="630" y="307" key="WebDeployment.AddServerDialog.v.1/0.0.1536.816@0.0.1536.816" timestamp="1695622076835" />
+    <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1695641291399">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="460" y="288" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.816@0.0.1536.816" timestamp="1693985879603" />
+    <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1695641291399" />
+    <state x="411" y="76" width="714" height="664" key="find.popup" timestamp="1694410293418">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="411" y="76" width="714" height="664" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1694410293418" />
+    <state x="460" y="288" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1693986633820">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="460" y="288" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.816@0.0.1536.816" timestamp="1693986633820" />
+    <state x="341" y="181" key="run.anything.popup" timestamp="1695359601340">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="341" y="181" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1695359601340" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1695399793167">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1695399793167" />
   </component>
 </project>

@@ -1,15 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './App';
 import {Provider} from "react-redux";
 import {BrowserRouter} from "react-router-dom";
 import {store} from "./store";
+import { createRoot } from 'react-dom/client';
+import ru_RU from 'antd/es/locale/ru_RU';
+import {ConfigProvider} from "antd";
 
-ReactDOM.render(
+const container: any = document.getElementById('root');
+const root = createRoot(container);
+root.render(<React.StrictMode>
     <Provider store={store}>
         <BrowserRouter>
-            <App />
+            <ConfigProvider locale={ru_RU}>
+              <App />
+            </ConfigProvider>
         </BrowserRouter>
-    </Provider>,
-    document.getElementById('root')
-);
+    </Provider>
+</React.StrictMode>);

@@ -3,6 +3,9 @@ import Index from "../pages/login";
 import Order from '../pages/order';
 import {RouteNames} from "./names";
 import Addorder from "../pages/order/addorder";
+import OrderId from "../pages/order/orderId";
+import Registration from "../pages/login/registration";
+import Profile from '../pages/profile';
 
 export interface IRoute {
     path: string;
@@ -11,10 +14,15 @@ export interface IRoute {
 }
 
 export const publicRoutes: IRoute[] = [
-    {path: RouteNames.LOGIN, exact: true, component: Index}
+    {path: RouteNames.LOGIN, exact: true, component: Index},
+    {path: RouteNames.REGISTRATION, exact: true, component: Registration}
 ]
 
 export const privateRoutes: IRoute[] = [
+    {path: RouteNames.LOGIN, exact: true, component: Index},
+    {path: RouteNames.REGISTRATION, exact: true, component: Registration},
     {path: RouteNames.ORDERS, exact: true, component: Order},
-    {path: RouteNames.ADD_ORDERS, exact: true, component: Addorder}
+    {path: RouteNames.ADD_ORDERS,  component: Addorder},
+    {path: RouteNames.ORDER_ID,  component: OrderId},
+    {path: RouteNames.PROFILE,  component: Profile}
 ]

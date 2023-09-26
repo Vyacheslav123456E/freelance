@@ -5,6 +5,10 @@ import {Category} from "./category/category.model";
 import {Sub_category} from "./category/sub_category.model";
 import {CategoryModule} from "./category/category.module";
 import {PermModule} from "./permission/perm.module";
+import {OrdersModule} from "./orders/orders.module";
+import {Orders} from "./orders/orders.model";
+import {User} from "./users/user.model";
+import {UserModule} from "./users/user.module";
 
 @Module({
   imports: [
@@ -18,11 +22,13 @@ import {PermModule} from "./permission/perm.module";
       username: process.env.POSTGRES_USER,
       password: process.env.POSTGRESS_PASSWORD,
       database: process.env.POSTGRES_DB,
-      models: [Category,Sub_category],
+      models: [Category,Sub_category,Orders,User],
       autoLoadModels: true
     }),
       CategoryModule,
-      PermModule
+      PermModule,
+      OrdersModule,
+      UserModule
   ],
   controllers: [],
   providers: [],

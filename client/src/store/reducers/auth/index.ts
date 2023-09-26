@@ -5,7 +5,7 @@ import {IUser} from "../../../models/IUser";
 const initialState: AuthState = {
     isAuth: true,
     error: '',
-    isLoading: false,
+    isLoading: true,
     user: {} as IUser
 }
 

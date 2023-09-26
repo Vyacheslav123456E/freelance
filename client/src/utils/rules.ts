@@ -1,4 +1,5 @@
 import moment, {Moment} from "moment";
+import crypto from 'crypto';
 
 export const rules = {
     required: (message: string = "Обязательное поле") => ({

@@ -4,8 +4,9 @@ import {CategoryService} from "./category.service";
 
 
 @WebSocketGateway({cors:{
-        origin:"http://192.168.20.28:19000", methods: ["GET","POST"], credentials: true, transports: ['websocket', 'polling'],},
-    allowEIO3: true
+        origin:"http://192.168.20.28:19000", methods: ["GET","POST"],
+        credentials: true, transports: ['websocket', 'polling']},
+        allowEIO3: true
 })
 export class CategoryGateway {
 
@@ -17,7 +18,6 @@ export class CategoryGateway {
     }
     @SubscribeMessage('categories_cascader')
     async ordersCascader(client: Socket){
-        console.log('dsfsdf')
         return  await this.categoriesService.getCategoriesCascader()
     }
 }

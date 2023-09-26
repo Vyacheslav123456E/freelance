@@ -8,23 +8,35 @@ export interface EventState {
     orders: IOrder[];
     categories: ICategories[];
     categories_cascader: ICategoriesCascader[];
+    count: number;
 }
 
 export enum EventActionEnum {
     SET_CATEGORIES = "SET_CATEGORIES",
-    SET_CATEGORIES_CASCADER= "SET_CATEGORIES_CASCADER"
+    SET_CATEGORIES_CASCADER = "SET_CATEGORIES_CASCADER",
+    SET_ORDERS = "SET_ORDERS",
+    SET_COUNT = "SET_COUNT"
 }
 
 export interface SetCategoriesAction {
     type: EventActionEnum.SET_CATEGORIES;
-    payload: ICategories[],
+    payload: ICategories[];
 }
 export interface SetCategoriesCascaderAction {
     type: EventActionEnum.SET_CATEGORIES_CASCADER;
-    payload: ICategoriesCascader[]
+    payload: ICategoriesCascader[];
 }
-
+export interface SetOrdersAction {
+    type: EventActionEnum.SET_ORDERS;
+    payload: IOrder[];
+}
+export interface SetOrdersCountAction {
+    type: EventActionEnum.SET_COUNT;
+    payload: number;
+}
 
 export type EventAction =
     SetCategoriesAction |
-    SetCategoriesCascaderAction
+    SetCategoriesCascaderAction |
+    SetOrdersAction |
+    SetOrdersCountAction

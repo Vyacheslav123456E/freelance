@@ -1,24 +1,23 @@
 import React, {FC, useEffect} from 'react';
 import AppRouter from "./components/AppRouter";
-import Navbar from "./components/Navbar";
 import {Layout} from "antd";
 import './App.css';
 import {useActions} from "./hooks/useActions";
-import {IUser} from "./models/IUser";
+import {useTypedSelector} from "./hooks/useTypedSelector";
 
 const App:FC = () => {
-    const {setUser, setIsAuth} = useActions();
+    const {setAuth} = useActions()
 
     useEffect(() => {
-        if(localStorage.getItem('auth')) {
-            setUser({username: localStorage.getItem('username' || '')} as IUser)
-            setIsAuth(true);
+        let token = sessionStorage.getItem('_in');
+        if ( token === null){
+            setAuth(false)
+        }else {
+            setAuth(true)
         }
-    }, [])
-
+    },[])
     return (
-        <Layout>
-            <Navbar/>
+        <Layout style={{height: 'calc(100vh - 0)'}}>
             <Layout.Content>
                 <AppRouter />
             </Layout.Content>
