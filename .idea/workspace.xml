@@ -10,7 +10,102 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e0ab61e-5a9c-48a7-84d4-03cdc70a22a7" name="Default Changelist" comment="ver 0.1" />
+    <list default="true" id="5e0ab61e-5a9c-48a7-84d4-03cdc70a22a7" name="Default Changelist" comment="ver 0.1">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Buttons.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/DrawerForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MenuHeaderForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MenuLoginForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/MenuProfileForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Tags.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ckeditor/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/ckeditor/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/confirm/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/navbar/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/navbar/menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/middleware/userInfo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/models/IResponses.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/account/Invitation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/account/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/account/responses/current.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/account/responses/currentId.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/account/responses/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/profile/contacts/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/profile/information/date.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/profile/information/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/profile/menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/profile/specialization/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/profile/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/reducers/drawer/action-drawer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/reducers/drawer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/reducers/drawer/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/reducers/users/action-users.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/reducers/users/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/store/reducers/users/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/dto/create-response.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/dto/create-views.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/invitation.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/responses.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/orders/views.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/birthday.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/contacts.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/dto/create-contacts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/dto/create-specialization.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/roles.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/users/specialization.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/31010.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/31010.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/OrdersService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/OrdersService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/api/UserService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/api/UserService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/RegistrationForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/RegistrationForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hooks/useIsXSmall.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/useIsXSmall.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/models/IUser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/models/IUser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/login/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/login/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/login/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/order/addorder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/order/addorder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/order/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/order/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/order/orderId.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/order/orderId.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/order/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/order/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/profile/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/profile/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/profile/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/names.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/router/names.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/auth/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/auth/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/auth/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/auth/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/auth/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/auth/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/order/action-creators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/order/action-creators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/order/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/order/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/reducers/order/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/reducers/order/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/rules.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/rules.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/orders/dto/create-orders.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/orders/dto/create-orders.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/orders/orders.gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/orders/orders.gateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/orders/orders.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/orders/orders.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/orders/orders.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/orders/orders.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/orders/orders.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/orders/orders.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/users/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/users/dto/create-user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/users/user.gateway.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/users/user.gateway.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/users/user.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/users/user.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/users/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/users/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/users/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/users/user.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,16 +115,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,6 +146,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -62,6 +158,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.last.introduce.type" value="LET" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,7 +169,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\react\freelance1\server\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -80,62 +177,12 @@
       <recent name="C:\react\freelance1\client\src\pages\order" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\react\freelance1\client\src\pages\account\Responses" />
+      <recent name="C:\react\freelance1\client\src\pages\profile\information" />
+      <recent name="C:\react\freelance1\client\src\components\navbar" />
       <recent name="C:\react\freelance1\server\src\orders" />
       <recent name="C:\react\freelance1\client\src\pages\order" />
-      <recent name="C:\react\freelance1\client\src\pages\login" />
     </key>
-  </component>
-  <component name="RunManager" selected="npm.start (1)">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
-    </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start:dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start (1)" />
-        <item itemvalue="npm.start:dev" />
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -164,6 +211,60 @@
       <workItem from="1695499782572" duration="29094000" />
       <workItem from="1695639575542" duration="8275000" />
       <workItem from="1695713075379" duration="385000" />
+      <workItem from="1695816291571" duration="18966000" />
+      <workItem from="1696149895181" duration="14837000" />
+      <workItem from="1696231845426" duration="22348000" />
+      <workItem from="1696506487285" duration="1713000" />
+      <workItem from="1696512540313" duration="33052000" />
+      <workItem from="1696617564220" duration="2578000" />
+      <workItem from="1696657177951" duration="731000" />
+      <workItem from="1697265635839" duration="13703000" />
+      <workItem from="1697368265866" duration="1563000" />
+      <workItem from="1697394158572" duration="5670000" />
+      <workItem from="1697724847743" duration="657000" />
+      <workItem from="1698051512998" duration="11000" />
+      <workItem from="1698052171139" duration="19071000" />
+      <workItem from="1698187584079" duration="53014000" />
+      <workItem from="1698395310957" duration="15484000" />
+      <workItem from="1698479186402" duration="12285000" />
+      <workItem from="1698602861640" duration="8000" />
+      <workItem from="1698605310616" duration="14000" />
+      <workItem from="1698765437061" duration="3809000" />
+      <workItem from="1698843660785" duration="15150000" />
+      <workItem from="1698861268857" duration="36666000" />
+      <workItem from="1699087715867" duration="4331000" />
+      <workItem from="1699183666314" duration="463000" />
+      <workItem from="1699184138303" duration="899000" />
+      <workItem from="1699185074245" duration="42000" />
+      <workItem from="1699185497859" duration="959000" />
+      <workItem from="1699186472474" duration="726000" />
+      <workItem from="1699202240211" duration="980000" />
+      <workItem from="1699203240457" duration="745000" />
+      <workItem from="1699266556035" duration="14042000" />
+      <workItem from="1699282004408" duration="4841000" />
+      <workItem from="1701179363995" duration="10477000" />
+      <workItem from="1701268278535" duration="2541000" />
+      <workItem from="1701274571961" duration="132000" />
+      <workItem from="1701274811421" duration="516000" />
+      <workItem from="1701275342812" duration="3857000" />
+      <workItem from="1701347714220" duration="21703000" />
+      <workItem from="1701615729608" duration="20371000" />
+      <workItem from="1702797569305" duration="1979000" />
+      <workItem from="1703004480935" duration="7794000" />
+      <workItem from="1703061702486" duration="62000" />
+      <workItem from="1703507623068" duration="4878000" />
+      <workItem from="1703570684925" duration="210000" />
+      <workItem from="1703575235015" duration="12755000" />
+      <workItem from="1703666750077" duration="6544000" />
+      <workItem from="1703745735660" duration="9797000" />
+      <workItem from="1703756330551" duration="3073000" />
+      <workItem from="1704187470694" duration="10836000" />
+      <workItem from="1704266739416" duration="15303000" />
+      <workItem from="1704531427530" duration="5902000" />
+      <workItem from="1704609550739" duration="14722000" />
+      <workItem from="1704695568135" duration="127000" />
+      <workItem from="1704696109913" duration="681000" />
+      <workItem from="1704697149223" duration="22747000" />
     </task>
     <task id="LOCAL-00001" summary="ver 0.1">
       <created>1693984929811</created>
@@ -277,97 +378,77 @@
     <option name="LAST_COMMIT_MESSAGE" value="ver 0.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="67" key="#Deployment" timestamp="1695622113180">
+    <state x="192" y="250" key="#SQL_Dialects" timestamp="1703681264161">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="67" key="#Deployment/0.0.1536.816@0.0.1536.816" timestamp="1695622113180" />
-    <state x="615" y="278" key="#ESLint" timestamp="1693850560194">
+    <state x="192" y="250" key="#SQL_Dialects/0.0.1536.816@0.0.1536.816" timestamp="1703681264161" />
+    <state x="186" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1703746976322">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="615" y="278" key="#ESLint/0.0.1536.816@0.0.1536.816" timestamp="1693850560194" />
-    <state x="391" y="71" key="#Inspections" timestamp="1693850453931">
+    <state x="186" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1703746976322" />
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1698487868723">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="391" y="71" key="#Inspections/0.0.1536.816@0.0.1536.816" timestamp="1693850453931" />
-    <state x="345" y="54" key="#SSH_Configurations" timestamp="1695622112090">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1698487868723" />
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1698955233612">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="345" y="54" key="#SSH_Configurations/0.0.1536.816@0.0.1536.816" timestamp="1695622112090" />
-    <state x="349" y="123" key="DBNavigator.DatasetFilterDialog" timestamp="1695541215333">
+    <state x="499" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.816@0.0.1536.816" timestamp="1698955233612" />
+    <state x="118" y="21" key="DBNavigator.ProjectSettingsDialog" timestamp="1696601777270">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="349" y="123" key="DBNavigator.DatasetFilterDialog/0.0.1536.816@0.0.1536.816" timestamp="1695541215333" />
-    <state x="459" y="163" key="DBNavigator.ObjectFactoryInputDialog" timestamp="1695391083541">
+    <state x="118" y="21" key="DBNavigator.ProjectSettingsDialog/0.0.1536.816@0.0.1536.816" timestamp="1696601777270" />
+    <state width="1024" height="208" key="GridCell.Tab.0.bottom" timestamp="1703748577991">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="459" y="163" key="DBNavigator.ObjectFactoryInputDialog/0.0.1536.816@0.0.1536.816" timestamp="1695391083541" />
-    <state x="379" y="298" key="DBNavigator.ObjectNameFilterConditionDialog" timestamp="1695301687209">
+    <state width="1024" height="208" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1703748577991" />
+    <state width="1024" height="208" key="GridCell.Tab.0.center" timestamp="1703748577991">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="379" y="298" key="DBNavigator.ObjectNameFilterConditionDialog/0.0.1536.816@0.0.1536.816" timestamp="1695301687209" />
-    <state x="118" y="21" key="DBNavigator.ProjectSettingsDialog" timestamp="1695301695180">
+    <state width="1024" height="208" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1703748577991" />
+    <state width="1024" height="208" key="GridCell.Tab.0.left" timestamp="1703748577990">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="118" y="21" key="DBNavigator.ProjectSettingsDialog/0.0.1536.816@0.0.1536.816" timestamp="1695301695180" />
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog" timestamp="1695713462979">
+    <state width="1024" height="208" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1703748577990" />
+    <state width="1024" height="208" key="GridCell.Tab.0.right" timestamp="1703748577991">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="93" y="93" width="1350" height="630" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1695713462979" />
-    <state x="438" y="187" key="EditFileWatcherDialog" timestamp="1695366057318">
+    <state width="1024" height="208" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1703748577991" />
+    <state x="160" y="0" key="SettingsEditor" timestamp="1703666719079">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="438" y="187" key="EditFileWatcherDialog/0.0.1536.816@0.0.1536.816" timestamp="1695366057318" />
-    <state width="1493" height="78" key="GridCell.Tab.0.bottom" timestamp="1695639564548">
+    <state x="160" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1703666719079" />
+    <state x="575" y="296" width="386" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1698865607293">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="78" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1695639564548" />
-    <state width="1493" height="78" key="GridCell.Tab.0.center" timestamp="1695639564548">
+    <state x="575" y="296" width="386" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.816@0.0.1536.816" timestamp="1698865607293" />
+    <state x="566" y="229" width="403" height="354" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1703747164863">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="78" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1695639564548" />
-    <state width="1493" height="78" key="GridCell.Tab.0.left" timestamp="1695639564547">
+    <state x="566" y="229" width="403" height="354" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.816@0.0.1536.816" timestamp="1703747164863" />
+    <state x="407" y="193" key="com.intellij.database.view.ui.DatabasePreviewDialog" timestamp="1703747696882">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="78" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1695639564547" />
-    <state width="1493" height="78" key="GridCell.Tab.0.right" timestamp="1695639564548">
+    <state x="407" y="193" key="com.intellij.database.view.ui.DatabasePreviewDialog/0.0.1536.816@0.0.1536.816" timestamp="1703747696882" />
+    <state x="25" y="42" width="1350" height="630" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1703668227217">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="78" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1695639564548" />
-    <state x="160" y="0" key="SettingsEditor" timestamp="1695713462560">
+    <state x="25" y="42" width="1350" height="630" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1703668227217" />
+    <state x="375" y="19" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1698869571969">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="160" y="0" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1695713462560" />
-    <state x="587" y="33" key="VCS.ChangeListViewerDialog" timestamp="1693986272418">
+    <state x="375" y="19" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816@0.0.1536.816" timestamp="1698869571969" />
+    <state x="128" y="77" width="1257" height="664" key="find.popup" timestamp="1704700352592">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="587" y="33" key="VCS.ChangeListViewerDialog/0.0.1536.816@0.0.1536.816" timestamp="1693986272418" />
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2" timestamp="1695713313539">
+    <state x="128" y="77" width="1257" height="664" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1704700352592" />
+    <state x="341" y="181" key="run.anything.popup" timestamp="1701415325420">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="261" y="76" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1695713313539" />
-    <state x="630" y="307" key="WebDeployment.AddServerDialog.v.1" timestamp="1695622076835">
+    <state x="341" y="181" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1701415325420" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1699202254088">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="630" y="307" key="WebDeployment.AddServerDialog.v.1/0.0.1536.816@0.0.1536.816" timestamp="1695622076835" />
-    <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1695641291399">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="93" y="93" width="1350" height="630" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.816@0.0.1536.816" timestamp="1695641291399" />
-    <state x="411" y="76" width="714" height="664" key="find.popup" timestamp="1694410293418">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="411" y="76" width="714" height="664" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1694410293418" />
-    <state x="460" y="288" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1693986633820">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="460" y="288" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.816@0.0.1536.816" timestamp="1693986633820" />
-    <state x="341" y="181" key="run.anything.popup" timestamp="1695359601340">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="341" y="181" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1695359601340" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1695399793167">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1695399793167" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1699202254088" />
   </component>
 </project>

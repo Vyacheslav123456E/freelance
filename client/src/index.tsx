@@ -9,7 +9,7 @@ import {ConfigProvider} from "antd";
 
 const container: any = document.getElementById('root');
 const root = createRoot(container);
-root.render(<React.StrictMode>
+root.render(
     <Provider store={store}>
         <BrowserRouter>
             <ConfigProvider locale={ru_RU}>
@@ -17,4 +17,4 @@ root.render(<React.StrictMode>
             </ConfigProvider>
         </BrowserRouter>
     </Provider>
-</React.StrictMode>);
+);

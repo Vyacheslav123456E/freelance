@@ -23,21 +23,19 @@
 .sub-price-id{
     text-align: start;
 }
+.title--st{
+    font-weight: bold;
+    font-size: 16px;
+    color: #5b5b5b;
+}
 .title{
     font-weight: bold;
     font-size: 16px;
     cursor: pointer;
+    color: #5b5b5b;
 }
 .title:hover{
     color: #5e309e;
-}
-.header{
-    text-align: center;
-    color: #000000;
-    height: 64px;
-    padding-inline: 50px;
-    line-height: 64px;
-    background-color: #ffffff;
 }
 .content-style{
     text-align: left;
@@ -58,4 +56,34 @@
     color: #7c7c7c;
     background: transparent;
     border-color: transparent;
+}
+.description_text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    height: 71px;
+    font-size: 14px;
+}
+.tree-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+th, td {
+    border: 1px solid grey;
+    padding: 10px;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.response{
+    color: red;
+    width: 18%;
+    margin-bottom: 10px;
 }

@@ -1,6 +1,8 @@
 export interface IUser {
-    name: string;
-    password: string;
-    success: number;
-    message: string;
+    readonly id: number;
+    readonly name: string;
+    readonly password: string;
+    readonly success: number;
+    readonly message: string;
+    readonly role_id: number
 }

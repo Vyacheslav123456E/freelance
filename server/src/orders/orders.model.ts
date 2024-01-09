@@ -1,4 +1,8 @@
-import {Column, DataType, Model, Table} from "sequelize-typescript";
+import {Column, DataType, ForeignKey, HasMany, Model, Table} from "sequelize-typescript";
+import {User} from "../users/user.model";
+import {Responses} from "./responses.model";
+import {Invitation} from "./invitation.model";
+import {Views} from "./views.model";
 
 @Table({tableName: 'orders', createdAt: true, updatedAt: true})
 export class Orders extends Model<Orders>{
@@ -26,9 +30,16 @@ export class Orders extends Model<Orders>{
     @Column({type: DataType.JSONB, allowNull: true, defaultValue: null})
     files: string;
 
-    @Column({type: DataType.INTEGER, allowNull: true, defaultValue: 0})
-    views: number;
+    @ForeignKey(() => User)
+    @Column({type: DataType.INTEGER, allowNull: false, defaultValue: 0})
+    user_id: number;
 
-    @Column({type: DataType.INTEGER, allowNull: true, defaultValue: 0})
-    responses: number;
+    @HasMany(() => Responses)
+    response: Responses[];
+
+    @HasMany(() => Invitation)
+    invitation: Invitation[];
+
+    @HasMany(() => Views)
+    views: Views[];
 }

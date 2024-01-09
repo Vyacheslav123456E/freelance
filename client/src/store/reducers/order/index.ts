@@ -6,7 +6,10 @@ const initialState: EventState = {
     guests: [],
     categories: [],
     categories_cascader: [],
-    count: 0
+    count: 0,
+    response: [],
+    countResponse: 0,
+    isUpdate: true
 }
 
 export default function EventReducer(state = initialState, action: EventAction): EventState {
@@ -19,6 +22,12 @@ export default function EventReducer(state = initialState, action: EventAction):
             return {...state, orders: action.payload}
         case EventActionEnum.SET_COUNT:
             return {...state, count: action.payload}
+        case EventActionEnum.SET_RESPONSE:
+            return {...state, response: action.payload}
+        case EventActionEnum.SET_COUNT_RESPONSE:
+            return {...state, countResponse: action.payload}
+        case EventActionEnum.UPDATE:
+            return {...state, isUpdate: action.payload}
         default:
             return state;
     }

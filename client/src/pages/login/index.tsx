@@ -1,8 +1,6 @@
 import React, {FC} from 'react';
-import {Card, Col, Layout, Row} from "antd";
+import {Card, Row} from "antd";
 import LoginForm from "../../components/LoginForm";
-import {Container} from "react-dom";
-import RegistrationForm from "../../components/RegistrationForm";
 
 const Index: FC = () => {
     return (

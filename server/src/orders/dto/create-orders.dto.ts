@@ -8,6 +8,6 @@ export class CreateOrdersDto {
     readonly files: string;
     readonly type_price: string
     readonly createdAt: Date;
-    readonly views: number
     readonly responses: number;
+    readonly user_id: number;
 }

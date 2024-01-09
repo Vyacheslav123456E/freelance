@@ -19,4 +19,41 @@ export default class UserService {
             } catch (e) {console.log(e)}
         })
     }
+    static async updateInformation(payload: []) {
+        return new Promise((resolve, reject) => {
+            try {
+                socket.emit('update-user-information', payload, (response: string) => {
+                    resolve(JSON.parse(response))
+                })
+            } catch (e) {console.log(e)}
+        })
+    }
+    static async updateSpecialization(payload: []) {
+        return new Promise((resolve, reject) => {
+            try {
+                socket.emit('update-user-specialization', payload, (response: string) => {
+                    resolve(JSON.parse(response))
+                })
+            } catch (e) {console.log(e)}
+        })
+    }
+    static async updateContacts(payload: []) {
+        return new Promise((resolve, reject) => {
+            try {
+                socket.emit('update-user-contacts', payload, (response: string) => {
+                    resolve(JSON.parse(response))
+                })
+            } catch (e) {console.log(e)}
+        })
+    }
+
+    static async fetchChangingUser(payload: {}) {
+        return new Promise((resolve, reject) => {
+            try {
+                socket.emit('changing-user', payload, (response: string) => {
+                    resolve(JSON.parse(response))
+                })
+            } catch (e) {console.log(e)}
+        })
+    }
 }

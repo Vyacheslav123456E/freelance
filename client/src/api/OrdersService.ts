@@ -43,4 +43,39 @@ export default class OrdersService {
             })
         })
     }
+    static async setResponse(payload: any){
+        return new Promise( (resolve, reject) => {
+            socket.emit('set_response', payload, (response: string) => {
+                resolve(JSON.parse(response))
+            })
+        })
+    }
+    static async getResponse(payload: number){
+        return new Promise( (resolve, reject) => {
+            socket.emit('get_response', payload, (response: string) => {
+                resolve(JSON.parse(response))
+            })
+        })
+    }
+    static async getCountResponses(payload: number){
+        return new Promise( (resolve, reject) => {
+            socket.emit('get_count_response', payload, (response: string) => {
+                resolve(JSON.parse(response))
+            })
+        })
+    }
+    static async refResponses(payload: {}){
+        return new Promise( (resolve, reject) => {
+            socket.emit('ref_response', payload, (response: string) => {
+                resolve(JSON.parse(response))
+            })
+        })
+    }
+    static async setViews(payload: any){
+        return new Promise( (resolve, reject) => {
+            socket.emit('set_views', payload, (response: string) => {
+                resolve(JSON.parse(response))
+            })
+        })
+    }
 }

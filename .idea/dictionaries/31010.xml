@@ -5,8 +5,12 @@
       <w>ahref</w>
       <w>bcrypt</w>
       <w>cascader</w>
+      <w>currentid</w>
+      <w>cпециализация</w>
       <w>navbar</w>
+      <w>sequelize</w>
       <w>сache</w>
+      <w>сontact</w>
     </words>
   </dictionary>
 </component>

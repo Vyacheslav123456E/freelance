@@ -1,0 +1,25 @@
+.grid-avatar{
+    width: 100%;
+}
+.grid-card-avatar{
+    width: 100%;
+    text-align: center;
+}
+.label{
+    text-align: left;
+    font-size: 12px;
+    color: #949494;
+}
+.checkbox-left{
+    float: left;
+}
+.close-row{
+    cursor: pointer;
+}
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu-inline .ant-menu-item,
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu-vertical .ant-menu-item,
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu-inline .ant-menu-submenu-title,
+:where(.css-dev-only-do-not-override-nnuwmp).ant-menu-vertical .ant-menu-submenu-title {
+    padding-left: 15px !important;
+    padding-inline: 0;
+}

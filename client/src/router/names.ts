@@ -5,6 +5,8 @@ export enum RouteNames {
     REGISTRATION = '/registration',
     ORDERS = '/',
     ADD_ORDERS = '/addorder',
-    ORDER_ID = '/orderId/:id',
-    PROFILE = '/profile'
+    ORDER_ID = '/a/:id',
+    PROFILE = '/profile',
+    PERSONAL_ACCOUNT = '/personal-account',
+    CURRENTID = '/c/:id'
 }

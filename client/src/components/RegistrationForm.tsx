@@ -30,7 +30,7 @@ const RegistrationForm = () => {
             placement,
         });
     };
-    const contextValue = useMemo(() => ({ name: 'Ant Design' }), []);
+    const contextValue = useMemo(() => ({ name: '' }), []);
     const clickLogin = () => {
         router.push(RouteNames.LOGIN)
     }

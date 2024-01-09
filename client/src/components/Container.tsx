@@ -1,15 +1,14 @@
 import React from 'react';
+import Navbar from "./navbar/Navbar";
 
 const Container = (props: any) => {
     return (
-        <div style={{
-            marginLeft: '5%',
-            marginRight: '5%',
-            paddingTop: 10,
-            height: 'calc(100vh - 64px)',
-            paddingBottom: 10}}>
-            <div>{props.children}</div>
-        </div>
+        <>
+            <Navbar/>
+            <div className={'container'}>
+                <div>{props.children}</div>
+            </div>
+        </>
     );
 };
 

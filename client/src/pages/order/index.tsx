@@ -1,7 +1,6 @@
 import React, {FC, useEffect, useState} from 'react';
-import {Col, Row, Divider, Card, Tree, Layout, Tag, Space, Pagination, PaginationProps} from 'antd';
+import {Col, Row, Divider, Card, Tree, Tag, Space, Pagination, PaginationProps, Flex} from 'antd';
 import {
-    AlignRightOutlined,
     CalendarTwoTone,
     CheckCircleTwoTone,
     EyeTwoTone, PlusCircleOutlined
@@ -13,117 +12,151 @@ import {useActions} from "../../hooks/useActions";
 import {useTypedSelector} from "../../hooks/useTypedSelector";
 import Container from '../../components/Container';
 import './style.css'
-import Navbar from "../../components/Navbar";
-const { DirectoryTree } = Tree;
+import DrawerForm from "../../components/DrawerForm";
+import {response_ph, views_ph} from "../../utils";
+import parse from "html-react-parser";
 
+
+const { DirectoryTree } = Tree;
 const Index: FC = () => {
-    const {fetchCategories,fetchOrder,fetchOrderPagination} = useActions()
+    //Разобраться почему страница рендерится несколько раз
+    const {fetchCategories,fetchOrder,fetchOrderPagination,addViews} = useActions();
+    const user: any = useTypedSelector(state => state.auth.user);
     const categories: any  = useTypedSelector(state => state.order.categories);
     const orders: any  = useTypedSelector(state => state.order.orders);
     const count: any  = useTypedSelector(state => state.order.count);
-    const {isAuth, user}: any = useTypedSelector(state => state.auth);
+    const [render, updateRender] = useState('information');
+    const [scrollPosition, setScroll] = useState(0);
 
+   // console.log(orders)
 
     useEffect(() => {
+        window.scrollTo(0, scrollPosition);
         fetchCategories();
         fetchOrder();
-    }, []);
+    }, [user]);
 
     const onChange: PaginationProps['onChange'] = (current,pageSize) => {
         fetchOrderPagination({current: current !== 0 ? current -1 : current, page: pageSize})
     };
+
     const addOrder = () => {
         return (
-            isAuth &&
+          user.length !== 0 && user.role_id === 1 &&
             <NavLink to={`/addorder`}>
                 <PlusCircleOutlined style={{fontSize: 30}}/>
             </NavLink>
 
         )
     }
+
+    const handleViews = (item: number) =>{
+        addViews({order_id: item,user_id: user.id})
+    }
+
+    const link = () =>{
+       // console.log('link')
+        setScroll(window.scrollY)
+        sessionStorage.setItem("scrollPosition", String(window.scrollY));
+    }
+
     return (
-        <>
-            <Navbar/>
-            <Container>
-                <Row>
-                    {useIsXSmall() ? (
-                        <Col span={6} className={"offset"}>
-                            <Card title="Фильтр">
-                                <DirectoryTree
-                                    multiple
-                                    checkable
-                                    defaultSelectedKeys={['0-1']}
-                                    defaultExpandAll
-                                    treeData={categories}
-                                    showIcon={false}
-                                    blockNode/>
-                            </Card>
-                        </Col>
-                    ) : (
-                        <div className={"filter-small"}>
-                            <AlignRightOutlined style={{fontSize: '28px'}}/>
-                        </div>
-                    )}
-                    <Col span={useIsXSmallCol() ? 24 : 18}>
-                        <Card title="Заказы" extra={addOrder()}>
-                            {orders.length !== 0 &&
-                            orders.map((item: any) => {
-                                return (
-                                    <Row key={item.id}>
-                                        <Col span={21}>
-                                            <NavLink to={{
-                                                pathname:`/orderId/${item.id}`,
-                                                state: {item: item}
-                                            }}>
-                                                <div className={"title"}>{item.title + ',' + item.id}</div>
-                                            </NavLink>
-                                            <Space size={[0, 8]} wrap>
-                                                <Tag icon={<EyeTwoTone/>} className={"tag"}>
-                                                    {item.views + " просмотров"}
-                                                </Tag>
-                                                <Tag icon={<CheckCircleTwoTone/>} className={"tag"}>
-                                                    {item.responses + " откликов"}
-                                                </Tag>
-                                                <Tag icon={<CalendarTwoTone/>} className={"tag"}>
-                                                    {moment(item.createdAt).format('DD.MM.YYYY hh:mm')}
-                                                </Tag>
-                                            </Space>
-                                        </Col>
-                                        <Col span={3}>
-                                            <div className={'price'}>
-                                                {item.price === "Договрная" ? item.price :
-                                                    <div>{item.price} &#8381;</div>
-                                                }
-                                            </div>
-                                            <div className={'sub-price'}>{item.type_price}</div>
-                                        </Col>
-                                        {item.tags?.map((el: any, index: any) => {
-                                            return (
-                                                <Space size={[0, 8]} wrap key={index} style={{paddingTop: 9}}>
-                                                    <Tag color="cyan">
-                                                        {"  #" + el + ' '}
-                                                    </Tag>
-                                                </Space>
-                                            )
-                                        })}
-                                        <Divider/>
-                                    </Row>
-                                )
-                            })}
-                            <Pagination
-                                showQuickJumper
-                                defaultPageSize={10}
-                                defaultCurrent={1}
-                                total={count}
-                                onChange={(current,page) =>{
-                                    onChange(current,page)
-                                }}
-                                />
+        <Container>
+            <Row>
+                {useIsXSmall() ? (
+                    <Col sm={6} className={"offset"}>
+                        <Card title="Фильтр">
+                            <DirectoryTree
+                                multiple
+                                checkable
+                                showLine={false}
+                                defaultSelectedKeys={['0-1']}
+                                defaultExpandAll
+                                treeData={categories}
+                                showIcon={false}
+                                blockNode
+                                className={'tree-text'}
+                            />
                         </Card>
                     </Col>
-                </Row>
-            </Container>
-        </>
+                ) : (
+                    <DrawerForm stateUser={user} updateRender={updateRender} type={'order'}/>
+                )}
+                <Col span={useIsXSmallCol() ? 24 : 18}>
+                    <Card title="Заказы" extra={addOrder()} bordered={false}>
+                        {orders.length !== 0 &&
+                           orders.map((item: any) => {
+                             return (
+                                <div key={item.id}>
+                                    <NavLink  to={{
+                                        pathname: `/a/${Math.random().toString(36).slice(2, 30)}`,
+                                        state: {item: item},
+                                    }} rel="noopener noreferrer" onClick={() => handleViews(item.id)}>
+                                        <Card hoverable style={{marginTop: 16, background: '#eeeeee'}}>
+                                            <Row>
+                                                <Col span={21}>
+                                                    {item.user_id !== null &&
+                                                    item.user_id === user?.id &&
+                                                    <Flex className={"response"}>Вы откликнулись </Flex>
+                                                    }
+                                                    <div className={"title"} >{item.title}</div>
+                                                    <Space size={[0, 8]} wrap>
+                                                        <Tag icon={<EyeTwoTone/>} className={"tag"}>
+                                                            { item.views + " " +
+                                                              views_ph(Number(item.views),[])
+                                                            }
+                                                        </Tag>
+                                                        <Tag icon={<CheckCircleTwoTone/>} className={"tag"}>
+                                                            {item.response + " " +
+                                                              response_ph(Number(item.response), [])}
+                                                        </Tag>
+                                                        <Tag icon={<CalendarTwoTone/>} className={"tag"}>
+                                                            {moment(item.createdAt).format('DD.MM.YYYY hh:mm')}
+                                                        </Tag>
+                                                    </Space>
+                                                </Col>
+                                                <Col span={3}>
+                                                    <div className={'price'}>
+                                                        {item.price === "Договрная" ? item.price :
+                                                            <div>{item.price} &#8381;</div>
+                                                        }
+                                                    </div>
+                                                    <div className={'sub-price'}>{item.type_price}</div>
+                                                </Col>
+                                                {item.tags?.map((el: any, index: any) => {
+                                                    return (
+                                                        <Space size={[0, 8]} wrap key={index}
+                                                               style={{paddingTop: 9}}>
+                                                            <Tag >
+                                                                {"  #" + el + ' '}
+                                                            </Tag>
+                                                        </Space>
+                                                    )
+                                                })}
+                                                <Divider style={{margin: '9px 0 14px 0'}}/>
+                                                <Col span={24}>
+                                                    <div className={"description_text"}>{parse(item.description)}</div>
+                                                </Col>
+                                            </Row>
+                                        </Card>
+                                    </NavLink >
+                                </div>
+                            )
+                        })}
+                        <Pagination
+                            showQuickJumper
+                            defaultPageSize={10}
+                            defaultCurrent={1}
+                            total={count}
+                            style={{marginTop: 16}}
+                            onChange={(current, page) => {
+                                onChange(current, page)
+                            }}
+                        />
+                    </Card>
+                </Col>
+            </Row>
+        </Container>
     );
 };
 
